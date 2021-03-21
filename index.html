@@ -1,12 +1,319 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camping Bell Vista</title>
-</head>
-<body>
-    <h1>Estamos haciendo unos arrgeglos en nuestra pagina, disculpas !!!</h1>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Camping y Cabañas Bella Vista, Iglesia, San Juan, Paso Agua Negra">
+    <meta name="author" content="Camping Bella Vista">
+    <link rel="shortcut icon" href="img/logos/favicon.png">
+
+    <title>Camping Bella Vista</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <link href="css/complejoprincipal.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-53059304-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.7&appId=461747707227053";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+  
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+              <p style="font-size: 20px;">
+                Hola, queríamos informarles a todos nuestro clientes y amigos que este año 2020 permaneceremos cerrados hasta nuevo aviso. Solo estaremos recibiendo contingentes en camping con reserva previa.
+                <br>
+                Pedimos disculpas y esperamos que sepan entendernos, por cualquier consulta pueden escribirnos a campingbv@gmail.com, gracias.<br>
+                Saludos cordiales.<br>
+              </p>
+            </div>
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-default cerrar" data-dismiss="modal">Cerrar</button>
+            </div> --> 
+        </div> 
+      </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-custom" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="img-responsive" src="img/logos/logocolores.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+           <div class="collapse navbar-collapse navbar-main-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li >
+                      <a href="cabana-gildo.html">ALOJAMIENTO</a>
+                    </li>
+                   <!--  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">ALOJAMIENTO<span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                        <li><a href="alojamiento.html">CABAÑAS</a></li>
+                        <li><a href="dormis.html">DORMIS</a></li>
+                      </ul>
+                    </li> -->
+                    
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">CAMPING<span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                        <li><a href="camping.html">CAMPING</a></li>
+                        <li><a href="gruposguiados.html">CONTINGENTES</a></li>
+                      </ul>
+                    </li>
+
+                    <li >
+                      <a href="actividades.html">ACTIVIDADES</a>
+                    </li>
+                   <!--  <li>
+                      <a href="huerta.html">HUERTA</a>
+                    </li> -->
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">CONTACTO <span class="caret"></span></a>
+                      <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                        <li><a href="contact.php">RESERVAS</a></li>
+                        <li><a href="ubicacion.html">UBICACION</a></li>
+                        <li><a href="transporte.html">TRANSPORTE</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- /.navbar-->
+
+  <div class="container">
+    <!-- <a href="tarifas.html"><span class="label label-success promocion"> PROMOCIONES !!!</span></a> -->
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators hidden-xs">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      
+      <div class="carousel-inner">
+        <div class="item active">
+            <img class="img-responsive" src="img/portada/portada12.jpg" alt=""> 
+            <div class="container">
+            <div class="carousel-caption">
+              <h1 class="hidden-xs">Un lugar acogedor para nuestros visitantes.</h1>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="item">
+          <img class="img-responsive" src="img/portada/portada13.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="hidden-xs">Enclave natural de extraordinaria belleza.</h1>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img class="img-responsive" src="img/portada/portada11.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="hidden-xs">Paz y naturaleza en un ambiente familiar.</h1>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img class="img-responsive" src="img/portada/portada10.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="hidden-xs">Temperaturas de 25ºC en epoca estival.</h1>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item">
+          <img class="img-responsive" src="img/portada/portada09.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="hidden-xs">Privilegiamos la sustentabilidad, la preservación y la apreciación del medio.</h1>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+  </div>
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+      <!-- START THE SERVICES -->
+    <div class="container services">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <a  href="cabana-gildo.html">
+            <img class="img-thumbnail" src="img/botones/cabana_boton_sin_fondo.png" alt="alojamiento">
+            <h4>Alojamiento</h4>
+          </a>
+          <p></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <a  href="camping.html">
+            <img class="img-thumbnail" src="img/botones/camping_boton_sin_fondo.png" alt="camping">
+            <h4>Camping</h4>
+          </a>
+          <p></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <a  href="actividades.html">
+            <img class="img-thumbnail" src="img/botones/contingente_boton_sin_fondo.png" alt="grupos guiados">
+            <h4>Actividades</h4>
+          </a>
+          <p></p>
+        </div><!-- /.col-lg-3 -->
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <a  href="ubicacion.html">
+            <img class="img-thumbnail" src="img/botones/ubicacion_boton_sin_fondo.png" alt="ubicacion">
+            <h4>Ubicación</h4>
+          </a>
+          <p></p>
+        </div><!-- /.col-lg-3 -->
+      </div><!-- /.row -->
+      <hr class="hr">
+    </div><!-- /.container services-->
+
+
+     <!-- START THE MARKETING <span class="text-muted"></span>-->
+    <div class="container marketing">
+      <div class="row marketing">
+        <div class="hidden-xs col-sm-4 col-md-3 col-lg-3">
+          <img class="featurette-image" src="img/logos/logo_sin_fondo.png" alt="Camping Bella Vista">
+        </div>
+        <div class="col-sm-7 col-md-9 col-lg-9">
+          <h1 class="marketing-heading">Camping, Cabañas y Patio de Comidas.</h1>
+          <p class="lead">Bienvenidos, nos encontramos en el Departamento de Iglesia, más precisamente en <span class="text-black">Bella Vista</span>, a 175 Km de la ciudad de San Juan, Argentina.</br>
+          Situados al pie de la <span class="text-black">Cordillera de los Andes</span>, con una temperatura media de <span class="text-black">25ºC</span> en epoca estival, lugar <span class="text-black">fecundo de agricultura, paraíso y enclave natural de extraordinaria belleza.</span></br>
+          Hacemos<span class="text-green"> eco-turismo</span>, privilegiando la sustentabilidad, la preservación y la apreciación del medio tanto natural como cultural.</br>
+          Camping Bella Vista <span class="text-black">te espera para disfrutar la paz y armonia de la naturaleza en un ambiente familiar.</span>
+          </p>
+        </div>
+      </div>
+      <hr class="hidden-xs">
+    </div><!-- /END THE MARKETING -->    
+
+    <div class="container extras">
+      <div class="row extras">
+
+        <div class="hidden-xs col-sm-6 col-md-4 col-lg-4">
+          <a href="galeria.html">
+            <img class="img-thumbnail-1" src="img/extras/galeria.jpg" alt=""></br>
+            <h4>Galeria</h4>
+          </a> 
+        </div>
+
+        <div class="hidden-xs col-sm-6 col-md-4 col-lg-4">
+          <div class="fb-page" data-href="https://www.facebook.com/bellavistacamping/" data-width="250" data-height="160" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/bellavistacamping/" class="fb-xfbml-parse-ignore"><a target="_blank" href="https://www.facebook.com/bellavistacamping/">Camping Bella Vista</a></blockquote>
+          </div>
+          <a target="_blank" href="https://www.facebook.com/bellavistacamping/">
+            <h4>Fanpage</h4>
+          </a>
+          <!--<a href="blog.html">
+            <img class="img-thumbnail" src="img/extras/blog.jpg" alt=""></br>
+          </a> -->
+        </div> 
+
+        <div class="hidden-xs hidden-sm col-md-4 col-lg-4">
+          <a href="intro.html">
+            <img class="img-thumbnail-1" src="img/extras/intro.jpg" alt=""></br>
+            <h4>Intro</h4>
+          </a> 
+        </div>
+        
+      </div>
+      <hr>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">      
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <i class="fa fa-phone"></i> Tel: 02647 496036 <!--<br>
+                    <i class="fa fa-phone"></i>  +54 264 5826496 <br>
+                    <i class="fa fa-phone"></i>  +54 264 4450828 <br>-->
+                </div>  
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+                    <i class="fa fa-envelope-o"></i><a href="mailto:campingbv@gmail.com">campingbv@gmail.com</a>
+                </div>
+                <div class="hidden-xs col-sm-2 col-md-3 col-lg-3">
+                    <a target="_blank" href="https://www.facebook.com/bellavistacamping/" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i> Facebook</a>
+                </div>
+                <div class="hidden-xs col-sm-3 col-md-3 col-lg-3">
+                    <p>Camping Bella Vista 1995 &middot; 2018</p>
+                </div>
+                <!-- <div class="hidden-xs col-sm-4 col-md-3 col-lg-3">
+                    <a target="_blank" href="https://www.tripadvisor.com.ar/Hotel_Review-g2694117-d4770273-Reviews-Camping_Bella_Vista-Bella_Vista_Province_of_Corrientes_Litoral.html" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-tripadvisor"></i> Tripadvisor</a>
+                </div> -->
+            </div>
+        </div>
+           <!-- /.container -->
+    </div>
+    <!-- FOOTER -->
+
+
+    <!--JavaScript-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+    $(window).load(function()
+    {
+      $('#myModal').modal('show');
+    });
+    </script>
+
+  </body>
 </html>

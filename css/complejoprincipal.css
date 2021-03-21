@@ -1,0 +1,315 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/*COLORES POSIBLES
+naranja: color: rgb(234,117,7);
+verde: color: rgb(131,184,24);
+*/
+
+body {
+  font-size: 16px;
+  background-image: url(../img/background.png);
+  font-family: Verdana, Arial, sans-serif;
+}
+
+a:hover, a:focus {
+text-decoration: none;
+}
+
+a{
+  color: #333;
+}
+h4{
+  text-align: center;
+}
+.col-lg-3, .col-lg-4 {
+  text-align: center;
+}
+/* MODAL */
+.modal{
+   border-radius: 0px;
+}
+.modal-content{
+  text-align: left;
+  padding: 10px;
+  background-color: #fff;
+  border-color: transparent;
+  background-image: url(../img/background.png);
+  border-radius: 0px;
+}
+.modal-header{
+  height: 50px;
+}
+/*.close {
+  float: right;
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 0;
+  color: #000;
+  border-radius: 0px;
+}    
+.modal-header .close {
+  margin-top: 0px;
+  color: #000;
+}*/
+.cerrar{
+  border-radius: 0px;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.navbar{
+  margin-top: 20px;
+}
+.navbar-brand {
+    float: left;
+}
+.navbar-brand img{
+  margin-left: 0px;
+  max-width: 250px;
+}
+.navbar-nav > li{
+  border-bottom: rgb(131,184,24);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.navbar-nav > li > a {
+    margin-top: 56px;
+    color: rgb(75,76,76);
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+}
+.navbar-nav > li > a:hover{
+    margin-top: 56px;
+    color: rgb(75,76,76);
+}
+.dropdown-menu > li > a {
+  font-size: 14px;
+}
+.navbar-nav > li > .dropdown-menu {
+  border: none;
+  border-radius: 0px;
+}
+
+/*Promocion*/
+.promocion {
+  font-size: 16px;
+  border-radius: 0px;
+  padding: 8px;
+  position: absolute;  
+  z-index: 11;
+  font-weight: normal;
+}
+.label-success {
+    background-color: rgb(131,184,24);
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+  position: relative;
+
+}
+.glyphicon-chevron-left:before {
+    content: "\e079";
+    font-size: 30px;
+}
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    font-size: 30px;
+}
+.featurette-image{
+  margin-top: 30px;
+}
+
+/* SERVICE CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.services {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.services .col-lg-3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.services h2 {
+  font-weight: normal;
+}
+.services .col-lg-3 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img-thumbnail {
+  background-color: transparent;
+  padding: 0px;
+  border-radius: 0px;
+}
+/* MARKETING
+------------------------- */
+
+/* Thin out the marketing headings */
+.marketing-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.lead{
+  color: #333;
+  margin-bottom: 5px;
+  line-height: 1.3;
+}
+.text-black {
+  font-weight: 500;  
+}
+.text-green {
+  color: rgb(131,184,24);
+  font-weight: 500; 
+}
+/* EXTRAS
+-------------------------------------------------- */
+.extras{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.extras .col-lg-4{
+  text-align: center;
+}
+
+/* FOOTER CSS
+-------------------------------------------------- */
+#footer{
+  color: #333;
+  margin-bottom: 20px;
+  bottom: 0;
+  color: rgb(76,76,75);
+  font-size: 14px;
+}
+
+/* DIVIDER
+-------------------------------------------------- */
+hr {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+/* Extra Small */
+@media (max-width: 767px) {
+  h1{
+    font-size: 24px;
+  }
+  hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  h4{
+    font-size: 10px;
+  }
+  .navbar{
+    margin-bottom: 10px;
+  }
+  .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .navbar-nav > li > a:hover {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .img-thumbnail {
+    width: 45px;
+    height: 40px;
+  }
+  .navbar-brand img {
+    margin-top: -12px;
+    width: 180px;
+    margin-left: 0px;
+  }
+  .carousel h1{
+    font-size: 16px;
+    margin-bottom: -20px;
+  }
+  .carousel-control {
+    font-size: 20px;
+  }
+  .glyphicon-chevron-right:before {
+    content: "\e080";
+    font-size: 18px;
+  }
+  .glyphicon-chevron-left:before {
+    content: "\e079";
+    font-size: 18px;
+  }
+  .promocion {
+    font-size: 10px;
+    padding: 5px;
+  }
+  #footer{
+    font-size: 12px;
+  }
+
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .navbar-brand img {
+    margin-left: 0px;
+    max-width: 235px;
+  }
+
+  h1, .h1 {
+    font-size: 30px;
+  }
+
+  /*.navbar-wrapper .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }*/
+
+  .navbar-nav > li > a {
+    font-size: 12px;
+    margin-top: 38px;
+    padding: 0px 0px 0px 10px;
+  }
+  .navbar-nav > li > a:hover {
+    font-size: 12px;
+    margin-top: 38px;
+    padding: 0px 0px 0px 10px;
+  }
+  .dropdown-menu > li > a {
+    font-size: 12px;
+  }
+
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+  
+}
+
+/* Large */
+@media(min-width:1200px){
+    .container {
+    width: 1100px;
+  }
+  
+}
+
+
+
+  
+
+ 
+
+

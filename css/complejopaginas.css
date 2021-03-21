@@ -1,0 +1,286 @@
+
+/* Global Styles */
+
+/*COLORES POSIBLES
+naranja: color: rgb(234,117,7);
+verde: color: rgb(131,184,24);
+*/
+
+html{
+  min-height: 100%;
+  color: rgb(76,76,75);
+  position: relative;
+}
+
+body {
+  /* body padding for fixed top nav */
+  font-family: Verdana, Arial, sans-serif;
+  margin-bottom: 80px;
+  padding-top: 20px;
+  font-size: 16px;
+  background-image: url(../img/background.png);
+}
+h1 {
+  font-size: 30px;
+  color: rgb(76,76,75);
+}
+h3 {
+  margin-top: 0px;
+  color: rgb(76,76,75);
+  font-size: 24px;
+}
+h3 small{
+  margin-top: 0px;
+  color: rgb(76,76,75);
+  font-size: 16px;
+}
+b {
+  color: rgb(76,76,75);
+}
+a {
+  color: rgb(76,76,75);
+  text-decoration: none;
+}
+.label{
+  padding: 5px 10px 5px;
+  border-radius: 0px;
+  font-weight: normal;
+}
+.label-success {
+    background-color: rgb(131,184,24);
+}
+.btn-primary {
+    border-radius: 0px;
+    padding: 4px 8px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    float: left;
+}
+.navbar-brand img{
+  margin-left: 10px;
+  max-width: 250px;
+}
+.navbar-nav > li{
+  border-bottom: rgb(131,184,24);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.navbar-nav > li > a {
+    margin-top: 56px;
+    color: rgb(75,76,76);
+    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+}
+.navbar-nav > li > a:hover{
+    margin-top: 56px;
+    color: rgb(75,76,76);
+}
+.dropdown-menu > li > a {
+  font-size: 14px;
+}
+.navbar-nav > li > .dropdown-menu {
+  border: none;
+  border-radius: 0px;
+}
+.page-header{
+  margin-top: 0px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+  /*border-top: 1px solid #ccc;*/
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.breadcrumb{
+  padding: 0px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.actividades{
+  padding-top: 30px;
+}
+/*CarouselThumbs*/
+
+.list-inline > li {
+  display: table-cell;
+  padding-right: 0px;
+}
+.selected img {
+  opacity:0.5;
+}
+.intro{
+  text-align: center;
+  margin-top: 0px;
+}
+.circuitos{
+  text-align: center;
+  margin-top: 10px;
+}
+/*Modals*/
+.modal-content{
+  border-radius: 0px;
+  padding: 10px;
+  background-color: #fff;
+  border-color: transparent;
+}
+.modal-title{
+  line-height: 0px;
+}
+.modal-header{
+  padding: 10px;
+  border: 0px;
+  margin: 0px;
+}
+.close {
+  float: right;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 0;
+  color: #000;
+}    
+.modal-header .close {
+  margin-top: 0px;
+  color: #000;
+}
+
+/*Pricing Page Styles */
+.price {
+  font-size: 20px;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 16px;
+  font-style: italic;
+}
+.nav-tabs {
+    border-bottom: 0px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.nav-tabs > li > a {
+  margin-top: 0px;
+  border-radius: 0px;
+}
+.imggaleria{
+  margin: 10px;
+
+}
+
+.promocion {
+  font-size: 16px;
+  border-radius: 0px;
+  padding: 8px;
+  position: absolute;  
+  z-index: 11;
+  font-weight: normal;
+}
+
+/* FOOTER CSS
+-------------------------------------------------- */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: rgb(76,76,75);
+  font-size: 14px;
+  padding-top: 0px;
+}
+
+
+/* Responsive Styles */
+/* Extra Small */
+@media (max-width: 767px) {
+  h3{
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .navbar-brand img{
+    max-width: 200px;
+    margin-top: -8px;
+  }
+  a{
+    font-size: 12px;
+  }
+  .label {
+    font-size: small;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .navbar-nav > li > a{
+    margin-top: 0px;
+    padding-top: 5px;
+  }
+  .navbar-nav > li > a:hover {
+    margin-top: 0px;    
+    padding-top: 5px;
+  }
+  .navbar-toggle {
+    margin-top: 26px;
+    margin-bottom: 0px;
+  }
+  .nav > li > a {
+    padding: 4px 4px;
+  }
+  .actividades {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel {
+    height: 70%;
+  }
+  .navbar-brand img {
+    margin-left: 20px;
+    max-width: 200px;
+    margin-top: -8px;
+  }
+  .imggaleria{
+    margin: 10px;
+    width: 140px;
+  } 
+  .navbar-nav > li > a {
+    font-size: 12px;
+    margin-top: 38px;
+    padding: 0px 0px 0px 10px;
+  }
+  .navbar-nav > li > a:hover {
+    font-size: 12px;
+    margin-top: 38px;
+    padding: 0px 0px 0px 10px;
+  }
+  .dropdown-menu > li > a {
+    font-size: 12px;
+  }
+  .actividades{
+      font-size: 13px;
+      padding-top: 15px;
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+
+}
+
+/* Large */
+@media(min-width:1200px){
+  .container {
+    width: 1100px;
+  }
+}
+
+
+
+
