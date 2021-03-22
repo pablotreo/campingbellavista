@@ -24,11 +24,11 @@ h1 {
   font-size: 30px;
   color: rgb(76,76,75);
 }
-h3 {
+/* h3 {
   margin-top: 0px;
   color: rgb(76,76,75);
   font-size: 30px;
-}
+} */
 h3 small{
   margin-top: 0px;
   color: rgb(76,76,75);
@@ -43,6 +43,10 @@ b {
 a {
   color: rgb(76,76,75);
   text-decoration: none;
+}
+hr {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .label{
   padding: 5px 10px 5px;
@@ -75,7 +79,7 @@ a {
     margin-top: 56px;
     color: rgb(75,76,76);
     padding: 5px 10px 5px 10px;
-    font-size: 14px;
+    font-size: 18px;
 }
 .navbar-nav > li > a:hover{
     margin-top: 56px;
@@ -165,7 +169,7 @@ a {
 .nav-tabs {
     border-bottom: 0px solid #ccc;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .nav-tabs > li > a {
   margin-top: 0px;
@@ -173,9 +177,7 @@ a {
 }
 .imggaleria{
   margin: 10px;
-
 }
-
 .promocion {
   font-size: 16px;
   border-radius: 0px;
@@ -184,6 +186,16 @@ a {
   z-index: 11;
   font-weight: normal;
 }
+/* EXTRAS
+-------------------------------------------------- */
+.extras{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.extras .col-lg-4{
+  text-align: center;
+}
+
 
 /* FOOTER CSS
 -------------------------------------------------- */
