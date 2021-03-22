@@ -27,12 +27,15 @@ h1 {
 h3 {
   margin-top: 0px;
   color: rgb(76,76,75);
-  font-size: 24px;
+  font-size: 30px;
 }
 h3 small{
   margin-top: 0px;
   color: rgb(76,76,75);
   font-size: 16px;
+}
+.box ul li {
+  font-size: 20px;
 }
 b {
   color: rgb(76,76,75);
